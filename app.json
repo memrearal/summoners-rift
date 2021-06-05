@@ -1,0 +1,36 @@
+{
+  "expo": {
+    "name": "summoners-rift",
+    "slug": "summoners-rift",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/icon.png",
+    "scheme": "summonersrift",
+    "userInterfaceStyle": "automatic",
+    "splash": {
+      "image": "./assets/images/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "privacy": "hidden",
+    "updates": {
+      "fallbackToCacheTimeout": 0,
+      "enabled":true
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "buildNumber": "0.0.1",
+      "bundleIdentifier": "com.memrearal.summonersrift"
+    },
+    "android": {
+      "package": "com.memrearal.summonersrift",
+      "versionCode": 1
+    },
+    "web": {
+      "favicon": "./assets/images/favicon.png"
+    }
+  }
+}
