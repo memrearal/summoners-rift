@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { ScrollView, StyleSheet } from 'react-native';
+import { ScrollView, Linking, TouchableOpacity, StyleSheet } from 'react-native';
 import { parse } from 'node-html-parser';
 import Component from '../components/Component';
 import { Text, View } from '../components/Themed';
@@ -32,9 +32,11 @@ export default class PatchNotes extends React.Component {
     return this.state.patchNotes.map((patch, index)=>{
       var patchdate = new Date(patch.date);
       return(
-        <Component title={patch.title}>
-          <Text style={{marginBottom: 5, color:"#fff"}}>Patch Release Date : {((patchdate.getDate() > 9) ? patchdate.getDate() : ('0' + patchdate.getDate())) + '/' + (((patchdate.getMonth() > 8) ? (patchdate.getMonth() + 1) : ('0' + (patchdate.getMonth() + 1)))) + '/'+ patchdate.getFullYear()}</Text>
-        </Component>
+        <TouchableOpacity key={"PatchNote"+index} onPress={()=>{Linking.openURL("https://na.leagueoflegends.com"+patch.link);}}>
+          <Component title={patch.title}>
+            <Text style={{marginBottom: 5, color:"#fff"}}>Patch Release Date : {((patchdate.getDate() > 9) ? patchdate.getDate() : ('0' + patchdate.getDate())) + '/' + (((patchdate.getMonth() > 8) ? (patchdate.getMonth() + 1) : ('0' + (patchdate.getMonth() + 1)))) + '/'+ patchdate.getFullYear()}</Text>
+          </Component>
+        </TouchableOpacity>
       );
     });
   }

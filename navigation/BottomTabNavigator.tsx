@@ -8,7 +8,6 @@ import useColorScheme from '../hooks/useColorScheme';
 import TabOneScreen from '../screens/TabOneScreen';
 import TabTwoScreen from '../screens/TabTwoScreen';
 import TabThreeScreen from '../screens/TabThreeScreen';
-import PatchNoteScreen from '../screens/PatchNoteScreen';
 import ChampionInfo from '../screens/ChampionInfo';
 import { BottomTabParamList, TabOneParamList, TabTwoParamList, TabThreeParamList } from '../types';
 
@@ -95,11 +94,6 @@ function TabThreeNavigator() {
       <TabThreeStack.Screen
         name="PatchNotes"
         component={TabThreeScreen}
-        options={{ headerTitle: 'Patch Notes' }}
-      />
-      <TabThreeStack.Screen
-        name="PatchNote"
-        component={PatchNoteScreen}
         options={{ headerTitle: 'Patch Notes' }}
       />
     </TabThreeStack.Navigator>
