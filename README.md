@@ -12,18 +12,18 @@ Summoners Rift, League of Legends oyuncuları için tasarlanmış, React Native 
 
 
 #### Mobil Uygulama Yol Haritası
- - [x] Taslak uygulama tasarımının hazırlanması [01.06.2021]
- - [x] Ana sayfa [02.06.2021]
- - [x] Champion Info sayfası, info sekmesi (03.06.2021)
- - [x] Champion Info sayfası, skins sekmesi (04.06.2021)
- - [x] Patch Notes sayfası, son 6 patch (05.06.2021)
- - [x] Yayınlanan patch bilgisine yönlendirme [06.06.2021]
- - [ ] Mobafire üzerinden champion guides ve buildslerinin alınması [07.06.2021]
- - [ ] Champion Info sayfası, builds/guides sekmesi [08.06.2021]
- - [ ] Favoriler sayfası [09.06.2021]
- - [ ] Seçilen şampiyonu favorilere ekleme özelliği [10.06.2021]
- - [ ] Şampiyona ait utility, mobility, cc gibi özelliklerin ana sayfada basılı tutulunca gösterilmesi [11.06.2021]
- - [ ] Ana sayfa remastered final versiyon [11.06.2021]
- - [ ] Header ve tabbar componentlerinin uygulama arayüzüne uygun şekilde tasarlanması [12.06.2021]
- - [ ] Performans düzenlemeleri [12.06.2021]
- - [ ] Versiyon 1.0'ın android için release edilmesi [13.06.2021]
+ - [x] Taslak uygulama tasarımının hazırlanması
+ - [x] Ana sayfa
+ - [x] Champion Info sayfası, info sekmesi
+ - [x] Champion Info sayfası, skins sekmesi
+ - [x] Patch Notes sayfası, son 6 patch
+ - [x] Yayınlanan patch bilgisine yönlendirme
+ - [ ] Mobafire üzerinden champion guides ve buildslerinin alınması
+ - [ ] Champion Info sayfası, builds/guides sekmesi
+ - [ ] Favoriler sayfası
+ - [ ] Seçilen şampiyonu favorilere ekleme özelliği
+ - [ ] Şampiyona ait utility, mobility, cc gibi özelliklerin ana sayfada basılı tutulunca gösterilmesi
+ - [ ] Ana sayfa remastered final versiyon
+ - [ ] Header ve tabbar componentlerinin uygulama arayüzüne uygun şekilde tasarlanması
+ - [ ] Performans düzenlemeleri
+ - [ ] Versiyon 1.0'ın android için release edilmesi
